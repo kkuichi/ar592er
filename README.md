@@ -18,7 +18,9 @@ Na trénovanie a testovanie modelov bol použitý verejne dostupný dataset [**T
 
 
 ### Štruktúra súborov:
-- `data/`: obsahuje CSV súbory s údajmi (myds_train.csv, myds_test.csv, myds_valid.csv)
+- `myds_train.csv`: CSV súbor s údajmi z tréningovéj množiny 
+- `myds_test.csv`: CSV súbor s údajmi z testovacej množiny
+- `myds_valid.csv`: CSV súbor s údajmi z validačnéj množiny
 - `CNN_LSTM_LRP_SHAP.py`: obsahuje implementáciu modelov (CNN, LSTM) a metód vysvetliteľnosti (LRP, SHAP)
 - `BERT_LRP.py`: obsahuje implementáciu modelu BERT a metódy vysvetliteľnosti LRP
 - `README.md` 
