@@ -26,9 +26,9 @@ from sklearn.utils import resample
 
 
 # Načítanie dátasetov pre trénovaciu, testovaciu a validačnú množinu
-my_train = pd.read_csv("../dataset/hugging face/myds_train.csv")
-my_test = pd.read_csv("../dataset/hugging face/myds_test.csv")
-my_valid = pd.read_csv("../dataset/hugging face/myds_valid.csv")
+my_train = pd.read_csv("myds_train.csv")
+my_test = pd.read_csv("myds_test.csv")
+my_valid = pd.read_csv("myds_valid.csv")
 
 # Sťahovanie potrebných jazykových zdrojov pre spracovanie textu
 nltk.download('wordnet')        # Pre lemmatizáciu
